@@ -135,6 +135,7 @@ public class FtpSync implements Runnable {
 		} catch (Exception e){
 			e.printStackTrace();
 		}
+        Log.v("FtpSync", "Exiting");
 
 	}
 
